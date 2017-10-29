@@ -10,7 +10,7 @@ seconds = elapsedtime % 60
 remainingminutes = config.pomolength - minutes
 remainingseconds = 60 - seconds
 
-if (remainingminutes <= 0) and (remainingseconds <= 0):
+if (remainingminutes <= 0):
     os.system('/home/connor/Documents/bash/pomo/pomodorostart.py')
     os.system('i3lock -i /home/connor/Pictures/lockbackround.png')
 
